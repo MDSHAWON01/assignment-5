@@ -1,0 +1,13 @@
+body{
+    background-color: yellow;
+}
+
+.input-group{
+    margin-left: 40%;
+    padding-top: 5%;
+    border-style: none;
+}
+#button{
+    background-color: rgb(71, 8, 245);
+    color: white;
+}
