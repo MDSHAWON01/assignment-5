@@ -1,13 +1,46 @@
 body{
     background-color: yellow;
 }
+.btn{
+    border-radius: -19.5rem;
+    padding: 6px 20px;
+}
+.btn-privious{
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+}
+.search-box{
+    position: relative;
+}
+.search-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    
+}
+.single-result{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+}
 
-.input-group{
-    margin-left: 40%;
-    padding-top: 5%;
-    border-style: none;
+
+#mealName{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px;
+    margin-right: 20px;
 }
-#button{
-    background-color: rgb(71, 8, 245);
-    color: white;
+
+.meal{
+    border: 1px solid goldenrod;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
 }
+.meal-name{
+    font-size: 45px;
+    color: magenta;
+}
+
